@@ -1,0 +1,275 @@
+body{
+width:100%;
+font-family: Microsoft JhengHei;
+margin:auto;
+}
+
+#header{
+width:100%;
+height:600px;
+background-image:url('images/title.jpg');
+z-index:-1;
+background-size:100% 600px;opacity:0.85;
+background-repeat:no-repeat;
+margin-top:-52px;
+}
+#header_text{
+color:#000000;
+text-align:center;
+line-height:300px;
+font-family:Comic Sans MS, Comic Sans, cursive;
+font-size:70px;
+}
+#nav{
+width:100%;
+height:300px;
+font-size:18px;
+background-color:#F5DEB3;
+}
+#nav1,#nav2,#nav3,#nav4,#nav5,#nav6,#nav7,#nav8{
+width:25%;
+height:150px;
+float:left;
+text-align:center;
+}
+#img{
+width:120px;
+height:100px;
+padding:20px;
+}
+#section{
+width:100%;
+}
+div.introduce{
+width:100%;
+height:400px;
+background-color:#FFE4B5;
+}
+#intro1{
+font-family:Microsoft JhengHei;
+font-size:50px;
+font-weight:bold;
+position:relative;
+top:30px;
+left:150px;
+float:left;
+}
+#intro2{
+position:relative;
+top:35px;
+left:360px;
+border-radius:10px;
+float:left;
+}
+#photo,#img,#intro1,#mc1{
+transition: all 0.8s;
+}
+#photo:hover{transform:scale(1.2);}
+#img:hover{transform:scale(1.2);}
+#intro1:hover{transform:scale(1.2);}
+#mc1:hover{transform:scale(1.1);}
+#intro3{
+font-family:Microsoft JhengHei;
+position:relative;
+top:20px;
+left:500px;
+float:left;
+font-size:30px;
+line-height:50px;
+}
+div.school{
+width:100%;
+height:400px;
+background-color:#FFDEAD;
+}
+#study1{
+position:relative;
+top:60px;
+}
+#dungon{
+border-radius:50%;
+float:left;
+margin-left:150px;
+margin-top:60px;
+margin-right:160px;
+}
+#zengde{
+border-radius:50%;
+float:left;
+margin-top:60px;
+margin-right:160px;
+}
+#san-min{
+border-radius:50%;
+float:left;
+margin-right:160px;
+margin-top:60px;
+}
+#cycu{
+border-radius:50%;
+float:left;
+margin-top:60px;
+
+}
+div.club{
+width:100%;
+height:400px;
+background-color:#FFE4B5;
+}
+#club1{
+width:600px;
+position:relative;
+top:50px;
+left:260px;
+font-family:Microsoft JhengHei;
+font-size:50px;
+}
+#club2,#club3,#club4{
+width:600px;
+position:relative;
+top:50px;
+left:500px;
+font-family:Microsoft JhengHei;
+font-size:50px;
+margin-top:10px;
+}
+div.work{
+width:100%;
+height:400px;
+background-color:#FFDEAD;
+}
+#work1{
+position:relative;
+top:60px;
+left:300px;
+font-family:Microsoft JhengHei;
+font-size:50px;
+width:600px;
+}
+#work2{
+	position:relative;
+	top:50px;
+	left:505px;
+	margin-top:10px;
+	font-size:30px;
+    letter-spacing:5px;
+    float:left;
+}
+#mc1{
+position:relative;
+top:-5px;
+left:600px;
+border-radius:50%;
+}
+div.interest{
+width:100%;
+height:400px;
+background-color:#FFE4B5;
+}
+#interest1{
+position:relative;
+top:50px;
+left:345px;
+font-family:Microsoft JhengHei;
+font-size:50px;
+width:600px;
+}
+#interest2,#interest3,#interest4{
+position:relative;
+top:50px;
+left:495px;
+font-family:Microsoft JhengHei;
+font-size:50px;
+margin-top:10px;
+width:600px;
+}
+div.goal{
+width:100%;
+height:350px;
+background-color:#FFDEAD;
+}
+#goal1{
+position:relative;
+top:80px;
+left:200px;
+font-family:Microsoft JhengHei;
+font-size:50px;
+float:left;
+border-radius:50%;
+}
+#goal2{
+position:relative;
+top:60px;
+left:400px;
+font-family:Microsoft JhengHei;
+font-size:50px;
+margin-top:20px;
+float:left;
+}
+#goal3{
+position:relative;
+top:50px;
+left:630px;
+font-family:Microsoft JhengHei;
+font-size:50px;
+margin-top:20px;
+float:left;
+}
+#g1,#g2,#g3{
+border-radius:50%;
+}
+div.record{
+width:100%;
+height:950px;
+background-color:#FFE4B5;
+}
+#record1,#record2,#record3,#record4{
+position:relative;
+top:100px;
+left:20px;
+margin-left:10px;
+height:500px;
+float:left;
+}
+
+#record5,#record6,#record7,#record8{
+position:relative;
+top:100px;
+left:220px;
+margin-left:10px;
+height:500px;
+float:left;
+margin-top:-110px;
+}
+#footer{
+width:100%;
+height:80px;
+background-color: #BEBEBE;
+clear:both;
+float:left;
+font-size:20px;
+}
+.end{
+text-align:center;
+}
+#pic{
+	position:relative;
+}
+#pic1{
+	position:relative;
+	top:-260px;
+	left:1100px;
+	border-width:3px;
+	border-style:dashed;
+	border-color:#FFAC55;
+	padding:10px;
+}
+#pic2{
+	position:relative;
+	top:-260px;
+	left:1100px;
+	border-width:3px;
+	border-style:dashed;
+	border-color:#FFAC55;
+	padding:10px;
+}
