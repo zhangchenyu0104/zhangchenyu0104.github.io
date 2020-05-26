@@ -1,0 +1,45 @@
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container1 {
+  width: 100%; /* Full width */
+  background-color:#ddd;
+  border-radius:20px; /* Grey background */
+}
+
+.skills {
+  text-align:right; /* Right-align text */
+  padding-top:10px; /* Add top padding */
+  padding-bottom:10px; /* Add bottom padding */
+  color:white; /* White text color */
+  font-size:18px;
+  border-radius:20px;
+
+}
+
+.html {width: 90%; background-color: #01B468;animation-name:skillhtml;animation-duration:3s} 
+.css {width: 80%; background-color: #46A3FF;animation-name:skillcss;animation-duration:3s} 
+.c {width: 70%; background-color: #BE77FF;animation-name:skillc;animation-duration:3s}
+.js {width: 50%; background-color: #FF5151;animation-name:skilljs;animation-duration:3s} 
+.python {width: 30%; background-color: #7D7DFF;animation-name:skillpython;animation-duration:3s}
+@keyframes skillhtml{
+	0%{width:0%;}
+	100%{width:90%;}
+}
+@keyframes skillcss{
+	0%{width:0%;}
+	100%{width:80%;}
+}
+@keyframes skillc{
+	0%{width:0%;}
+	100%{width:70%;}
+}
+@keyframes skilljs{
+	0%{width:0%;}
+	100%{width:50%;}
+}
+@keyframes skillpython{
+	0%{width:0%;}
+	100%{width:30%;}
+}
